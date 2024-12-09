@@ -1,0 +1,21 @@
+.modalBackground {
+    position: fixed;
+    background-color: #0404046b;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    z-index: 999;
+  }
+  
+  .modalContainer {
+    margin: 1.75rem auto;
+    background-color: white;
+    box-shadow: 0px 0px 0px #888;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+  }
